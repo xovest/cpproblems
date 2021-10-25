@@ -1,0 +1,44 @@
+Let C = 1, 2, 3, 4 or 5.
+If: 
+    C = 1: You are given an array of numbers. Print all the 3 digit prime and palindrom numbers less than the difference between the second highest value and the lowest value in the array in descending order. If the difference is equal to a 2 digit number or less, print "unfavorable number".
+    C = 2: You are given an array of numbers. Print all the numbers in ascending order according to their digit sum.
+    C = 3: You are given a word and a letter. Print the absolute combinations of the sum of all the even numbers taken each the sum of all the odd numbers less than the total of appearances of the letter in the word.
+    C = 4: You are given 2 numbers and a square matrix. Print how many times does the control digit from the concatenation of the first number with the second one appear on the diagonals of the matrix.
+    C = 5: You are given an array of numbers. Print how many pairs of numbers have their sum equal to a perfect square and how many pairs of numbers are prime between them.
+
+Example 1:
+Input:						Output:
+1     						353 313 191 181 151 131 101
+5
+198 117 781 478 302
+
+Example 2:
+Input:						Output:
+2     						101 22 321 63 91 57
+5
+63 101 321 22 57 91
+
+Example 3:
+Input:						Output:
+3     						220
+araeaolaeasha a
+
+Explanation: The task is solved for C = 3. In the respective word the letter 'a' appears 6 times. The sum of all even numbers less than 6 is 12 and for the odd numbers is 9. The absolute combinations of 12 taken each 9 is 220.
+
+Example 4:
+Input:						Output:
+4     						3
+416 723
+4
+8 3 1 5
+2 5 3 9
+4 1 6 0
+5 5 7 2
+
+Explanation: The task is solved for C = 4. The concatenation of 416 with 723 is 416723. The digit sum of 416723 is 23, and the digit sum of 23 is 5. On the diagonals from the given matrix, the digit 5 appears 3 times.
+
+Example 5:
+Input:						Output:
+5     						4 10
+6
+24 35 11 14 5 4
